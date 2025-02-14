@@ -1,0 +1,5 @@
+{
+  "$schema": "https://dev.wix.com/wix-cli/schemas/wix-config.json",
+  "appId": "1a153335-1edc-454a-b559-25698f94deec",
+  "projectId": "packaging-fee"
+}

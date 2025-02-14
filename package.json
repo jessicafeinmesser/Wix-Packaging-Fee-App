@@ -1,0 +1,39 @@
+{
+  "name": "packaging-fee",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@wix/dashboard": "^1.3.25",
+    "@wix/data": "^1.0.194",
+    "@wix/design-system": "^1.0.0",
+    "@wix/ecom": "^1.0.668",
+    "@wix/essentials": "^0.1.14",
+    "@wix/sdk": "^1.15.10",
+    "@wix/secrets": "^1.0.44",
+    "@wix/wix-ui-icons-common": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "wix-data": "^0.0.1-security",
+    "wix-secrets-backend": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.2",
+    "@types/react": "^16.0.0",
+    "@wix/cli": "^1.0.0",
+    "@wix/cli-app": "^1.0.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.1.0"
+  },
+  "scripts": {
+    "wix": "wix",
+    "build": "wix app build",
+    "create-version": "wix app create-version",
+    "dev": "wix app dev",
+    "preview": "wix app preview",
+    "serve": "wix app serve",
+    "generate": "wix app generate",
+    "logs": "wix app logs",
+    "typecheck": "tsc --noEmit"
+  }
+}
