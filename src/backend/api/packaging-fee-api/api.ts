@@ -1,5 +1,8 @@
+//api.ts utilizes a global variable to store and update the packaging fee
+
 let packagingFee: number = 10; // Default packaging fee
 
+//fetch the packaging fee
 export async function GET(req: Request) {
   try {
     const responsePayload = { fee: packagingFee };
@@ -20,6 +23,7 @@ export async function GET(req: Request) {
   }
 }
 
+//update the packaging fee
 export async function POST(req: Request) {
   try {
     const { fee } = await req.json();
