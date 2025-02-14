@@ -1,4 +1,6 @@
 //api.ts utilizes a global variable to store and update the packaging fee
+// I ideally would have used the Wix Data API for stronger data persistence, but the import statements were causing countless errors, 
+//so for the sake of simplicity and time I used a global variable.
 
 let packagingFee: number = 10; // Default packaging fee
 
